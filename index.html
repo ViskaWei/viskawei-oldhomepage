@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Viska Wei</title>
+  
+  <meta name="author" content="Viska Wei">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/seal_icon.png">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Viska Wei</name>
+              </p>
+              <p>I am a PhD at Johns Hopkins University, co-advised by  <a href="http://www.sdss.jhu.edu/~szalay/">Prof. Alex Szalay</a> and 
+              <a href="https://www.cs.jhu.edu/~vova/">Prof. Vladimir Braverman</a>
+              </p>
+              <p>
+                I did my undergrad at UC Berkeley, master at Uchicago.
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:viskawei@gmail.com">Email</a> &nbsp/&nbsp
+                {% comment %} <a href="data/JonBarron-CV.pdf">CV</a> &nbsp/&nbsp {% endcomment %}
+                <a href="https://scholar.google.com/citations?user=Jbay8EQAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://github.com/ViskaWei">Github</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/viskawei.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/viskawei.jpg" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p>
+                I mainly work on sketching and streaming problems
+                Representative papers are <span class="highlight">highlighted</span>.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+          <tr onmouseout="nerfie_stop()" onmouseover="nerfie_start()" bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='nerfie_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/nerfie_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/nerfie_before.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function nerfie_start() {
+                  document.getElementById('sketch-scale-aggregate').style.opacity = "1";
+                }
+
+                function nerfie_stop() {
+                  document.getElementById('sketch-scale-aggregate').style.opacity = "0";
+                }
+                nerfie_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://nerfies.github.io/">
+                <papertitle>Sketch and Scale: Geo-distributed tSNE and UMAP</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=wHAYz5wAAAAJ&hl=en">Nikita Ivkin</a>,
+              <a href="http://www.sdss.jhu.edu/~szalay/">Alex Szalay</a>
+              <a href="https://www.cs.jhu.edu/~vova/">Vladimir Braverman</a>
+              <p></p>              
+              <a href="https://github.com/ViskaWei/sketch-scale">code</a> /
+              <a href="https://arxiv.org/abs/2011.06103">arXiv</a> /
+              {% comment %} <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA">video</a> {% endcomment %}
+              <p></p>
+              <p>Building a preprocessing pipeline for tSNE and UMAP for big, geo-distributed, and private data 
+              </p>
+            </td>
+          </tr> 
+
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                Templates <a href="https://github.com/jonbarron/jonbarron_website">source code</a>,
+                <br>
+                Also, consider using <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of this page.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
