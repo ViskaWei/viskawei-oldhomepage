@@ -79,33 +79,33 @@
   th,
   tr,
   p {
-    font-size: 14px;    
+    font-size: 18px;    
   }
-  
+
   a {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 18px
+    font-size: 22px
   }
   
   strong {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 22px;
   }
   
   heading {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 26px;
+    font-size: 30px;
   }
   
   papertitle {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700
   }
   
   name {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 36px;
+    font-size: 40px;
   }
   
   .one {
@@ -130,5 +130,5 @@
   }
   
   span.highlight {
-    background-color: #b5fcefbe;
+    background-color: #b5ffdb;
   }
