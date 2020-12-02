@@ -64,7 +64,7 @@
   }
   
   a {
-    color: #571cf8;
+    color: #1c95f8;
     text-decoration: none;
   }
   
@@ -77,7 +77,10 @@
   body,
   td,
   th,
-  tr,
+  tr{
+    font-size: 22px;
+  }
+
   p {
     font-size: 22px;    
   }
